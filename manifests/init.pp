@@ -115,7 +115,6 @@ class dashboard (
   $passenger_install         = $dashboard::params::passenger_install,
   $mysql_package_provider    = $dashboard::params::mysql_package_provider,
   $ruby_mysql_package        = $dashboard::params::ruby_mysql_package,
-  $dashboard_config          = $dashboard::params::dashboard_config,
   $dashboard_root            = $dashboard::params::dashboard_root,
   $rails_base_uri            = $dashboard::params::rails_base_uri,
   $rack_version              = $dashboard::params::rack_version
